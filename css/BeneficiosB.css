@@ -156,8 +156,8 @@ ol {
     width: 100%;
     color: white;
     background-color: black;
-    background-image: url("../Images/Nhero.svg");
-    background-position: center top;
+    background-image: url("../Images/BHero.svg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -215,11 +215,13 @@ ol {
     width: 100%;
     
     background-color: black;
-    background-image: url("../Images/Nimg.svg");
+    background-image: url("../Images/BSimg.svg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .subtitulo{
     margin-top: 44px;
@@ -237,9 +239,8 @@ ol {
     opacity: .2;
   }
 
-  #principiosTexto ol {
-    list-style: decimal;
-}
+ 
+
 
 .elementoServ h3{
     margin-top: 10px;
@@ -265,3 +266,29 @@ ol {
     width: 60%;
     margin: 0 5%;
   }
+
+  .IconBen{
+    max-height: 100px;
+    max-width: 60px;
+    min-width: 60px;
+    min-height: 60px;
+  }
+
+  .espacio{
+      width: 60px;
+      height: auto;
+      margin-right: 30px;
+
+  }
+
+  .espacio1{
+    width: 60px;
+    height: auto;
+    margin: 0;
+    margin-right: 30px;
+
+}
+
+.no{
+    padding: 0;
+}
