@@ -176,7 +176,9 @@ ul, ol {
 }
 
 .cardServicios{
-  height: 350px;
+  padding: 60px;
+  padding-bottom: 80px;
+  height: auto;
   width: 80%;
   margin-top:30px;
   margin-bottom: 30px;
@@ -184,7 +186,7 @@ ul, ol {
 }
 
 .subtitulo{
-  margin-top: 44px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -314,10 +316,11 @@ ul, ol {
 }
 
 #contacto{
-  height: 600px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
+ 
 }
 
 .contactos{
@@ -327,10 +330,11 @@ ul, ol {
   margin-top:30px;
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 60px; 
 }
 
 .mapa{
-  height: 600px;
+  height: auto;
   width: 50%;
   background: #000;
 }
@@ -344,4 +348,43 @@ ul, ol {
   background-color:#c3c7ca;
   position: relative;
 
+}
+
+.IconBen{
+  max-height: 100px;
+  max-width: 60px;
+  min-width: 60px;
+  min-height: 60px;
+}
+
+.espacio1{
+    width: 60px;
+    height: auto;
+    margin-right: 30px;
+
+}
+
+.espacio1{
+  width: 40px;
+  height: auto;
+  margin-right: 20px;
+
+}
+
+.IconBen1{
+  max-height: 40px;
+  max-width: 40px;
+  min-width: 10px;
+  min-height: 10px;
+}
+.alineaC{
+  text-align: center;
+}
+
+.ma{
+  margin-top: 10px;
+}
+
+.ma2{
+  margin-top: 25px;
 }
