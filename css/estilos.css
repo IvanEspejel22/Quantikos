@@ -57,28 +57,91 @@ ul, ol {
 
 }
 
-.nav li a:hover {
+.nav li:hover {
   background-color:#c3c7ca;
 }
 
+
+
 .nav li ul {
+  padding: 0;
   display:none;
   position:absolute;
   min-width:140px;
+ 
 }
 
+#sm1{
+  width: 54.24vw;
+  background-color:#c3c7ca;
+  padding: 0;
+  border-radius: 0  0 0 16px;
+}
+
+#sm1 li{
+  width: 33.3%;
+}
+
+#sm2{
+  width: 40.7vw;
+  background-color:#c3c7ca;
+  padding: 0;
+  border-radius: 0  0 0 16px;
+}
+#sm2 li{
+  width: 50%;
+}
+#sm3{
+  width: 27.15vw;
+  background-color: red;
+  /* background-color:#c3c7ca; */
+  padding: 0;
+  border-radius: 0  0 0 16px;
+}
+
+#sm3 li{
+  width: 50%;
+}
+
+#sm11 a{
+  border-radius: 0  0 0 16px;
+}
+#sm11 {
+  border-radius: 0  0 0 16px;
+}
+
+#sm21 a{
+  border-radius: 0  0 0 16px;
+}
+#sm21 {
+  border-radius: 0  0 0 16px;
+}
+
+#sm31 a{
+  border-radius: 0  0 0 16px;
+}
+#sm31 {
+  border-radius: 0  0 0 16px;
+}
 .nav li:hover > ul {
   display:block;
 }
 
+
 .nav li ul li {
+  background-color:#c3c7ca;
   position:relative;
+  float: left;
+  
+}
+.nav li ul li a {
+  width: 100%;
 }
 
-.nav li ul li ul {
-  right:-140px;
-  top:0px;
+.nav li ul li:hover a:hover{
+  background-color: #d6dade;
 }
+
 
 #hero{
   height: 87.8vh;
@@ -269,4 +332,15 @@ ul, ol {
   height: 600px;
   width: 50%;
   background: #000;
+}
+
+#submenu1 , #submenu2, #submenu3{
+  display: none;
+}
+
+#submenu1{
+  display: flex;
+  background-color:#c3c7ca;
+  position: relative;
+
 }
