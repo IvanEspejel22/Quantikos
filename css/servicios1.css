@@ -203,10 +203,39 @@ ol {
     background: #ff4650;
     margin-bottom: 35px;
 }
-.sec1{
+
+
+.cardNosotros {
+    background: white;
+    padding: 60px;
+    padding-bottom: 80px;
+    height: auto;
+    width: 80%;
+    margin-top: 30px;
     margin-bottom: 30px;
-    padding: 8% 4%;
-    box-shadow: 0 5px 10px -5px #202020;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subtitulo{
+    margin-top: 44px;
+    text-align: center;
+  }
+  
+  .subtitulo h2{
+    font-family:  'Merriweather', serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+  
+  #principios{
+    height: auto;
+    width: 100%;
+    
+    background-color: black;
+    background-image: url("../Images/Nimg.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sec1 h1{
     text-align: center;
@@ -215,10 +244,37 @@ ol {
     text-align: justify;
 }
 .sec2{
+    height: auto;
     margin-bottom: 30px;
     padding: 8% 4%;
     box-shadow: -3px 5px 8px -5px #202020;
 }
+
+.fondo1{
+    height: auto;
+    margin-bottom: 30px;
+    width: 50vw;
+    background-color: black;
+    background-image: url("../Images/diseña.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fondo2{
+    height: auto;
+    margin-bottom: 30px;
+    width: 50vw;
+    background-color: black;
+    background-image: url("../Images/CalcuEvalua.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 .sec2 h1{
     text-align: center;
 }
