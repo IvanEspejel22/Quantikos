@@ -12,6 +12,7 @@ body {
 #sec-titulo {
     height: 326px;
     width: 100%;
+    margin-bottom: 50px;
     color: white;
     background-color: black;
     background-image: url("../Images/Hands.svg");
@@ -42,17 +43,6 @@ body {
 .pestanas div div:nth-child(2) a {
     border-bottom: 6px solid #ff4650;
 }
-
-.cardNosotros {
-    background: white;
-    padding: 60px;
-    padding-bottom: 80px;
-    height: auto;
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
   
 .sec2{
     height: auto;
@@ -81,5 +71,5 @@ body {
 }
 
 .container-fluid{
-    margin: 30px 0;
+    margin-bottom: 50px;
 }
