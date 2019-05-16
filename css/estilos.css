@@ -3,164 +3,22 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header .contenedor {
-  color: primary;
-  text-align: center;
-
-}
-
-#navBar {
-  color: #001933;
-  position: sticky;
-  z-index: 4;
-  top: 0;
-  background-color: #d6dade;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  height: 96px;
-  width: auto;
-  padding: 0 0 0 4%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#navBar a{
-  color: #001933;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.logoLakmi{
-  width: 172px;
-  
-}
-
-ul, ol {
-  list-style:none;
-}
-
-.nav > li {
-  float:left;
-}
-
-.nav li a {
-  margin: 0;
-  color:#fff;
-  text-decoration:none;
-  width: 200px;
-  height: 96px;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-}
-
-.nav li:hover {
-  background-color:#c3c7ca;
-}
-
-
-
-.nav li ul {
-  padding: 0;
-  display:none;
-  position:absolute;
-  min-width:140px;
- 
-}
-
-#sm1{
-  width: 54.24vw;
-  background-color:#c3c7ca;
-  padding: 0;
-  border-radius: 0  0 0 16px;
-}
-
-#sm1 li{
-  width: 33.3%;
-}
-
-#sm2{
-  width: 40.7vw;
-  background-color:#c3c7ca;
-  padding: 0;
-  border-radius: 0  0 0 16px;
-}
-#sm2 li{
-  width: 50%;
-}
-#sm3{
-  width: 27.15vw;
-  background-color: red;
-  /* background-color:#c3c7ca; */
-  padding: 0;
-  border-radius: 0  0 0 16px;
-}
-
-#sm3 li{
-  width: 50%;
-}
-
-#sm11 a{
-  border-radius: 0  0 0 16px;
-}
-#sm11 {
-  border-radius: 0  0 0 16px;
-}
-
-#sm21 a{
-  border-radius: 0  0 0 16px;
-}
-#sm21 {
-  border-radius: 0  0 0 16px;
-}
-
-#sm31 a{
-  border-radius: 0  0 0 16px;
-}
-#sm31 {
-  border-radius: 0  0 0 16px;
-}
-.nav li:hover > ul {
-  display:block;
-}
-
-
-.nav li ul li {
-  background-color:#c3c7ca;
-  position:relative;
-  float: left;
-  
-}
-.nav li ul li a {
-  width: 100%;
-  font-size: 16px !important;
-}
-
-.nav li ul li:hover a:hover{
-  background-color: #d6dade;
-}
-
-
-#hero{
-  height: 87.8vh;
-  width: 100%;
-  color: white;
-  background-color: black;
-  background-image: url("../Lakmi/Hero.svg");
+.EstBG{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
-.titulo{
-  font-family:  'Merriweather', serif;
-  font-weight: 400;
-  font-size: 68px;
+#hero{
+  height: 90.2vh;
+  width: 100%;
+  color: white;
+  background-color: black;
+  background-image: url("../Lakmi/Hero.svg");
+  
 }
+
+
 
 .heroTitulo{
   position: relative;
@@ -168,139 +26,53 @@ ul, ol {
   margin-left: 4%;
 }
 
-.textitulo{
-  margin-top: 30px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 26px;
-  line-height : 30px;
-}
-
-.cardServicios{
-  padding: 60px;
-  padding-bottom: 80px;
-  height: auto;
-  width: 80%;
-  margin-top:30px;
-  margin-bottom: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .subtitulo{
   margin-top: 0px;
   text-align: center;
 }
 
-.subtitulo h2{
-  font-family:  'Merriweather', serif;
-  font-weight: 400;
-  font-size: 40px;
-}
 
-.subtitulo hr{
-  border: 2px solid #0066cc;
-  opacity: .2;
-}
 
-.elementoServ h3{
-  margin-top: 10px;
-  bottom: 30px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  text-align: center;
-}
-.elementoServ{
-  width: 15%;
-  height: 200px;
-  margin-top: 30px;
- 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
 
-.IconServicios{
-  max-height: 40%;
-  width: 60%;
-  margin: 0 5%;
-}
 
-#frase1{
-  height: 464px;
+#frase1 , #frase2{
+  height: auto;
   width: 100%;
   color: white;
-  background-color: black;
+}
+
+
+
+#frase1{
   background-image: url("../Lakmi/Calculadora.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
-}
-
-
-.fraseDer{
-  padding:  100px 0;
-  height: 100%;
-  margin-right: 8%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-.fraseDer p{
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  font-weight: 300;
-  font-size: 24px;
-  text-align: right;
-  line-height : 28px;
-}
-
-.botonF1{
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  font-weight: 400;
-  font-size: 18px;
-  width: 412px;
-  height: 60px;
-  border-radius: 4px;
-  border: none;
-  background-color: #2e81d5;
 }
 
 #frase2{
-  height: 464px;
-  width: 100%;
-  color: white;
-  background-color: black;
   background-image: url("../Lakmi/Laptop.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
 }
 
-
-.fraseIzq{
+.fraseDer,.fraseIzq{
+  background-color: rgba(19, 42, 62, .4);
   padding:  100px 0;
   height: 100%;
-  margin-left: 8%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
 }
-.fraseIzq p{
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  font-weight: 300;
-  font-size: 24px;
-  text-align: left;
-  line-height : 28px;
+
+.fraseDer{
+  margin-right: 8%;
+  align-items: flex-end;
+  text-align: right;
 }
 
-.botonF2{
-  margin-top: 30px;
+.fraseIzq{
+  margin-left: 8%;
+  align-items: flex-start;
+}
+
+.botonF1,.botonF2{
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-weight: 400;
@@ -310,82 +82,117 @@ ul, ol {
   border-radius: 4px;
   border: none;
   background-color: #2e81d5;
+  margin-top: 30px;
+}
+
+
+.botonF2{
+  margin-top: 30px;
 }
 
 .botonF1:hover , .botonF2:hover{
   background-color: #fb4851;
 }
 
+
 #contacto{
+  padding-top: 30px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
- 
+  padding-bottom: 30px;
 }
 
-.contactos{
-  margin: 0 4%;
-  height: 90%;
-  width: 42%;
-  margin-top:30px;
-  margin-bottom: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 60px; 
+#servicios{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .mapa{
   height: auto;
+  width: auto;
+}
+
+
+.TFTam{
   width: 50%;
-  background: #000;
 }
 
-#submenu1 , #submenu2, #submenu3{
-  display: none;
-}
-
-#submenu1{
-  display: flex;
-  background-color:#c3c7ca;
-  position: relative;
-
-}
-
-.IconBen{
-  max-height: 100px;
-  max-width: 60px;
-  min-width: 60px;
+.TF{
   min-height: 60px;
+  display: flex;
+  align-items: center;
 }
 
-.espacio1{
-    width: 60px;
-    height: auto;
-    margin-right: 30px;
-
+.mtM{
+  margin-top: 30px;
 }
 
-.espacio1{
-  width: 40px;
-  height: auto;
-  margin-right: 20px;
-
+.mbM{
+  margin-bottom: 20px;
 }
 
-.IconBen1{
-  max-height: 40px;
-  max-width: 40px;
-  min-width: 10px;
-  min-height: 10px;
-}
-.alineaC{
-  text-align: center;
+.mbL{
+  margin-bottom: 50px;
 }
 
-.ma{
-  margin-top: 10px;
+
+
+@media only screen and (max-width: 1140px) {
+  .mapa{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 60vh;
+    width: auto;
+  }
+  
+.TFTam{
+  width: 90%;
+}
+  
+}
+@media only screen and (max-width: 720px) {
+  #hero{
+    height: 40vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-image: url("../Lakmi/Hero.svg");
+    
+  }
+
+  .heroTitulo{
+    height: 100%;
+    background-color: rgba(19, 42, 62, .6);
+    position: relative;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .tituloPrincipal {
+    font-size: 48px;
+}
+  
+.textoFrases {
+  font-size: 22px;
+  line-height: 26px;
+}
+  
+.TFTam{
+  width: 90%;
 }
 
-.ma2{
-  margin-top: 25px;
+.textoFrases2 {
+  font-size: 16px;
+  line-height: 20px;
+  
+}
+  
 }
