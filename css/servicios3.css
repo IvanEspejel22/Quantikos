@@ -3,24 +3,45 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#sec-titulo {
-    height: 326px;
-    width: 100%;
-    margin-bottom: 50px;
-    color: white;
-    background-color: black;
-    background-image: url("../Images/Hands.svg");
-    background-position: center 70%;
+.EstBG {
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.secTitulo {
+#hero {
+    height: 44vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-image: url("../Images/Hands.svg");
+    background-position: center;
+}
+
+
+
+.heroTitulo {
     position: relative;
     top: 30%;
     margin: 0;
     text-align: center;
 }
+
+#heroshadow {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(87%, rgba(19, 42, 62, 0.87)), color-stop(100%, rgba(19, 42, 62, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#132a3e', GradientType=0);
+}
+
+
 
 .pestanas {
     position: relative;
@@ -40,41 +61,63 @@ body {
     border-bottom: 6px solid #c379b2;
 }
 
-.sec1{
+#documentacion {
     margin-top: 7px;
-    padding: 8% 8%;
+    padding: 8% 0%;
     background-color: black;
     background-image: url("../Images/E5.svg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
-.sec1 .row div{
+/* .sec1 .row div{
     padding: 2% 5%;
-}
+} */
 
-.sec2{
+#formularios {
     margin-top: 7px;
-    padding: 8% 4%;
+    padding: 8% 0%;
     background-color: black;
     background-image: url("../Images/E6.svg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
-.sec2 .row div{
+/* .sec2 .row div{
     padding: 2% 5%;
-}
+} */
 .lista1 {
     list-style: decimal;
 }
 
-.lista2{
-    list-style: circle;  
+.lista2 {
+    list-style: circle;
 }
 
-.container-fluid{
+.container-fluid {
     margin-bottom: 50px;
 }
+
+.p0 {
+    padding: 30px 0;
+}
+
+.TFTam {
+    width: 50%;
+}
+
+.TF {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.mtM{
+    margin-top: 30px;
+  }
+  
+  .mbM{
+    margin-bottom: 20px;
+  }
+  
+  .mbL{
+    margin-bottom: 50px;
+  }

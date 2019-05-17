@@ -3,7 +3,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+.EstBG {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #hero {
     height: 366px;
@@ -16,15 +20,10 @@ body {
     background-size: cover;
 }
 
-.titulo {
-    font-family: 'Open Sans', sans-serif serif;
-    font-weight: 400;
-    font-size: 72px;
-}
 
 .heroTitulo {
     position: relative;
-    top: 50%;
+    top: 30%;
     margin: 0;
     text-align: center;
 }
@@ -43,59 +42,26 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#132a3e', GradientType=0);
 }
 
-.cardNosotros {
-    background: white;
-    padding: 60px;
-    padding-bottom: 80px;
-    height: auto;
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 
 
-.textoCard{
-    margin-top: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    line-height : 28px;
-}
 
-#principios{
+#habilidad{
     height: auto;
     width: 100%;
-    
     background-color: black;
     background-image: url("../Images/BA1.svg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#principios1{
+#capacidad{
     height: auto;
     width: 100%;
     text-align: left;
     background-color: black;
     background-image: url("../Images/BA2.svg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.subtitulo{
-    margin-top: 44px;
-    text-align: center;
-  }
-  
-  .subtitulo h2{
-    font-family:  'Merriweather', serif;
-    font-weight: 400;
-    font-size: 40px;
-  }
+
   
   .subtitulo hr{
     border: 2px solid #0066cc;
@@ -129,3 +95,31 @@ body {
     width: 60%;
     margin: 0 5%;
   }
+
+  
+.pestanas {
+  position: relative;
+  top: 50%;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.pestanas div div a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 7px;
+}
+
+.pestanas div div:nth-child(1) a {
+  border-bottom: 6px solid #2e81d5;
+}
+
+.p1{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.my{
+  margin-top: 40px;
+}

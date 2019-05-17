@@ -8,23 +8,45 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .EstBG {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-#sec-titulo {
-    height: 326px;
+#hero {
+    height: 44vh;
     width: 100%;
-    margin-bottom: 50px;
     color: white;
     background-color: black;
     background-image: url("../Images/Hands.svg");
-    background-position: center 70%;
+    background-position: center;
 }
 
-.secTitulo {
+
+
+.heroTitulo {
     position: relative;
     top: 30%;
     margin: 0;
     text-align: center;
 }
+
+#heroshadow {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(87%, rgba(19, 42, 62, 0.87)), color-stop(100%, rgba(19, 42, 62, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(19, 42, 62, 0.87) 87%, rgba(19, 42, 62, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#132a3e', GradientType=0);
+}
+
+
 
 .pestanas {
     position: relative;
@@ -73,3 +95,30 @@ body {
 .container-fluid{
     margin-bottom: 50px;
 }
+
+.mtM{
+    margin-top: 30px;
+  }
+  
+  .mbM{
+    margin-bottom: 20px;
+  }
+  
+  .mbL{
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 1140px) {
+    .fondo1 , .fondo2{
+        height: 40vw;
+        width: 100%;
+        background-position: center;
+    }
+    .fondo1 {
+        margin-top: 40px;
+    }
+
+     .fondo2{
+        margin-bottom: 40px;
+    }
+  }

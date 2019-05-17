@@ -58,3 +58,24 @@
     font-size: 16px;
     text-align: center;
 }
+
+
+.mtM{
+    margin-top: 30px;
+  }
+  
+  .mtS{
+    margin-top: 20px;
+  }
+
+  .mtxS{
+    margin-top: 20px;
+  }
+
+  .mbM{
+    margin-bottom: 20px;
+  }
+  
+  .mbL{
+    margin-bottom: 50px;
+  }
