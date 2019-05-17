@@ -1,45 +1,49 @@
-.IconoV{
-    max-height: 80%;
-    max-width: 80%;
-    min-width: 40%;
-    min-height: 40%
-  }
+.IconoV {
+  max-height: 80%;
+  max-width: 80%;
+  min-width: 40%;
+  min-height: 40%
+}
 
-  
-.BIconos{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .icono{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
 
-  .icono2{
-    padding: 0;
-    /* background-color: red; */
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.BIconos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .IconServicios{
-    max-height: 40%;
-    width: 60%;
-    margin: 0 5%;
-  }
-  
-  .IconServicios1{
-    max-height: 50%;
-    width: 70%;
-    margin: 0 5%;
-  }
+.icono {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.icono2 {
+  padding: 0;
+  /* background-color: red; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IconServicios {
+  max-height: 40%;
+  width: 60%;
+  margin: 0 5%;
+}
+
+.IconServicios1 {
+  max-height: 50%;
+  width: 70%;
+  margin: 0 5%;
+}
+
+.p0 {
+  padding: 0%;
+}

@@ -8,12 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .EstBG {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+  
 #hero {
     height: 44vh;
     width: 100%;
@@ -66,20 +61,14 @@ body {
     border-bottom: 6px solid #ff4650;
 }
   
-.sec2{
-    height: auto;
-    padding: 8% 4%;
-    box-shadow: -3px 5px 8px -5px #202020;
-}
+
 
 .fondo1{
     height: auto;
     width: 50vw;
     background-color: black;
     background-image: url("../Images/diseña.svg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 .fondo2{
@@ -87,26 +76,11 @@ body {
     width: 50vw;
     background-color: black;
     background-image: url("../Images/CalcuEvalua.svg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
-.container-fluid{
-    margin-bottom: 50px;
-}
 
-.mtM{
-    margin-top: 30px;
-  }
-  
-  .mbM{
-    margin-bottom: 20px;
-  }
-  
-  .mbL{
-    margin-bottom: 50px;
-  }
+
 
   @media only screen and (max-width: 1140px) {
     .fondo1 , .fondo2{
@@ -121,4 +95,15 @@ body {
      .fondo2{
         margin-bottom: 40px;
     }
+   
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .pestanas {
+     
+      height: auto;
+      top: 40%;
+     
+    }
+   
   }

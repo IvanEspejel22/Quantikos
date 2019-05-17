@@ -46,17 +46,6 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#132a3e', GradientType=0);
 }
 
-.cardNosotros {
-    background: white;
-    padding: 60px;
-    padding-bottom: 80px;
-    height: auto;
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 
 
 
@@ -113,6 +102,7 @@ body {
   padding-bottom: 60px;
 }
 
+
 .my{
   margin-top: 40px;
 }
@@ -125,4 +115,14 @@ body {
   min-height: 60px;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .pestanas {
+   
+    height: auto;
+    top: 40%;
+   
+  }
+ 
 }
