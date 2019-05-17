@@ -1,5 +1,4 @@
 #navBar {
-    color: #001933;
     position: sticky;
     z-index: 4;
     top: 0;
@@ -8,9 +7,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 76px;
-    width: auto;
-    padding: 0 0 0 4%;
+    height: auto;
+    padding: 0 4%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
@@ -20,18 +18,17 @@
     font-weight: 600;
     font-size: 18px;
   }
+
+  #navbar div{
+    width: 100%;
+  }
   
   .logoLakmi{
     width: 172px;
-    
   }
   
   ul, ol {
     list-style:none;
-  }
-  
-  .nav > li {
-    float:left;
   }
   
   .nav li a {
@@ -44,7 +41,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
   }
   
   .nav li:hover {
@@ -119,3 +115,48 @@
     background-color: #d6dade;
   }
   
+  .nav-boton{
+    margin: 0;
+    width: 70px;
+    height: 76px;
+    color: #001933;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+@media (max-width: 670px) {
+  .nav{
+    flex-direction: column;
+  }
+  .nav li:hover > ul {
+    display:none;
+  }
+  .nav li>ul {
+    position:static;
+    display: none;
+    flex-flow: column wrap;
+  }
+  .nav li>ul li a {
+    width: 92vw;
+  }
+  #sm1,#sm2,#sm3{
+    border-radius: 0;
+  }
+  #sm11 a , #sm11 , #sm21 a, #sm21, #sm31 a , #sm31{
+    border-radius: 0;
+  }
+  .nav li a{
+    width: 92vw;
+    height: 50px;
+  }
+  .nav-boton {
+    display: inline-block;
+  }
+  .desaparece {
+    display: none;
+  }
+}
