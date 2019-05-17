@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     height: auto;
-    padding: 0 4%;
+    padding: 0 0 0 4%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
@@ -61,7 +61,7 @@
     
     background-color:#c3c7ca;
     padding: 0;
-    border-radius: 0  0 0 16px;
+    
   }
   
   #sm1 li{
