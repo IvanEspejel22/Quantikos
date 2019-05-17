@@ -31,3 +31,15 @@
     justify-content: center;
     align-items: center;
   }
+
+  .IconServicios{
+    max-height: 40%;
+    width: 60%;
+    margin: 0 5%;
+  }
+  
+  .IconServicios1{
+    max-height: 50%;
+    width: 70%;
+    margin: 0 5%;
+  }
