@@ -82,19 +82,13 @@ body {
 
 
 
-  @media only screen and (max-width: 1140px) {
+  @media only screen and (max-width: 987px) {
     .fondo1 , .fondo2{
         height: 40vw;
         width: 100%;
         background-position: center;
     }
-    .fondo1 {
-        margin-top: 40px;
-    }
-
-     .fondo2{
-        margin-bottom: 40px;
-    }
+    
    
   }
   
@@ -104,6 +98,13 @@ body {
       height: auto;
       top: 40%;
      
+    }
+    .fondo1 {
+        margin-top: 40px;
+    }
+
+     .fondo2{
+        margin-bottom: 40px;
     }
    
   }
