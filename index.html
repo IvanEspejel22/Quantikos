@@ -1,12 +1,25 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes.">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos" class="next-head"/>
+  <meta property="og:description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes." class="next-head"/>
+  <meta property="og:type" content="website" class="next-head"/>
+  <meta property="og:locale" content="es_PE" class="next-head"/>
+  <meta property="og:locale:alternate" content="es_BO" class="next-head"/>
+  <meta property="og:site_name" content="Lakmi Systems - Soluciones y servicios con un enfoque
+  basado en la integración de la administración de riesgos" class="next-head"/>
+  <meta property="og:image" content="/Lakmi/hero.svg" class="next-head"/>
+  <meta name="twitter:image" content="/Lakmi/hero.svg" class="next-head"/>
+  <meta property="twitter:card" content="summary_large_image" class="next-head"/>
+  <meta property="twitter:title" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos" class="next-head"/>
+  <meta property="twitter:site" content="@LakmiSystems" class="next-head"/>
+  <meta property="twitter:description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes." class="next-head"/>
   <link rel="icon" type="image/png" sizes="16x16" href="Lakmi/Favicon_1.png">
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link
     href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700"
@@ -18,11 +31,11 @@
   <link rel="stylesheet" href="css/estilos.css">
   <title>Lakmi Systems</title>
 </head>
-
 <body>
-  <section id="navBar">
-    <a href="index.html"> <img class="logoLakmi" src="Lakmi/Logo.svg" alt="" width="120px"></a>
-    <div>
+  <!--Menú de navegación-->
+  <nav id="navBar" role="navigation" data-navigation="menu">
+    <a href="index.html"><img class="logoLakmi" src="Lakmi/Logo.svg"  alt="" width="120px"></a>
+    <section>
       <ul class="nav">
         <li><a href="servicios1.html">Servicios</a>
           <ul id="sm1">
@@ -41,24 +54,24 @@
         </li>
         <li><a href="index.html#contacto">Contacto</a></li>
       </ul>
-    </div>
-  </section>
-
-  <!-- Sección Hero -->
-  <section id="hero" class="EstBG">
-    <div class="heroTitulo">
-      <h1 class="tituloPrincipal">Lakmi Systems</h1>
-      <p class="textoFrases">
+    </section>
+  </nav>
+  <!--fin menú de navegación-->
+  <!-- header Hero -->
+  <header id="hero" class="EstBG" role="header">
+    <section class="heroTitulo">
+      <h1 class="tituloPrincipal" data-company="Lakmi Systems">Lakmi Systems</h1>
+      <p class="textoFrases" data-motto="lema">
         Soluciones y servicios con un enfoque <br> basado en la integración de la <br> administración de riesgos con la
         <br> estrategia y el desempeño de cada <br> uno de nuestros clientes.
       </p>
-    </div>
-  </section>
-
-
-  <section id="servicios" class="container-fluid">
-    <div class=" row pMd">
-      <div class="offset-0 offset-sm-1 col-12 col-sm-10 mTmd  cardS">
+    </section>
+  </header>
+  <!--fin de header Hero-->
+  <!--Sección servicios-->
+  <section id="servicios" class="container-fluid" role="services">
+    <article class=" row pMd">
+      <section class="offset-0 offset-sm-1 col-12 col-sm-10 mTmd  cardS">
         <div class="row justify-content-center">
           <div class="col-12  ">
             <h2 class="subtitulo">Nuestros servicios</h2>
@@ -95,132 +108,118 @@
             <h3 class="TextoIconos">Asesoría y <br> consultoría</h3>
           </div>
         </div>
-      </div>
+      </section>
+    </article>
   </section>
-
-
-  <section id="frase1" class="EstBG">
-    <div class="fraseDer mTmd ">
+  <!--Fin sección servicios-->
+  <!--Sección main-->
+  <main id="frase1" class="EstBG" role="main">
+    <section class="fraseDer mTmd ">
       <p class="TFTam textoFrases">
         “ Todas las entidades sean lucrativas, no lucrativas o gubernamentales existen para proporcionar valor a sus
         inversionistas y partes interesadas. Nuestro propósito es ayudar a nuestros clientes a crear, proteger y mejorar
         el valor que ofrecen a sus inversionistas y a otras partes interesadas.“
       </p>
-      <a href="servicios1.html"><input type="button" class="botonF1" value="Conoce nuestra oferta de valor"></a>
-    </div>
-  </section>
-
+      <a href="servicios1.html"><input type="button" class="botonF1" value="Conoce nuestra oferta de valor" role="button"></a>
+    </section>
+  </main>
+  <!--fin sección main-->
   <!-- Contacto -->
-
-  <section id="contacto" class="">
-    <div class=" contactos container-fluid mTmd">
-      <div class="row ">
+  <section id="contacto" class="" role="contact">
+    <article class=" contactos container-fluid mTmd">
+      <section class="row ">
         <div class="offset-0 offset-sm-1 col-12 col-sm-10  col-xl-5  subtitulo cardS">
-          <div class="row">
+          <section class="row">
             <div class="col-12">
-              <h2 class="subtitulo ">Contacto</h2>
+              <h2 class="subtitulo">Contacto</h2>
               <hr>
             </div>
-          </div>
-          <div class="row ">
+          </section>
+          <section class="row ">
             <div class="col-12 mTsm">
               <p class="Subsubt  TextoCentrado">
-                
                   Dirección
-                
               </p>
             </div>
-          </div>
-          <div class="row">
+          </section>
+          <section class="row">
             <div class="col-12 col-sm-2 icono2">
               <img src="Lakmi/mapa1.svg" alt="" class="IconoV IconoV1">
             </div>
-            <div class="col-12 col-sm-10 d-flex TextoCentrado m2">
+            <div class="col-12 col-sm-10 d-flex TextoCentrado m2" role="address">
               <p class="textoFrases2 TextoCentrado">
                 Avenida Benjamín Franklin 186, Colonia Escandón II Sección, Delegación Miguel Hidalgo, C.P. 11800 Ciudad
-                de
-                México, México.
+                de México, México.
               </p>
             </div>
-          </div>
-          <div class="row ">
+          </section>
+          <section class="row ">
             <div class="col-12 mTsm">
               <p class="Subsubt TextoCentrado">
-                
                   División de soluciones de software
-                
               </p>
-
             </div>
-          </div>
-          <div class="row TF">
+          </section>
+          <section class="row TF">
             <div class="col-12 col-sm-2 icono2">
               <img src="Images/TelA.svg" alt="" class="IconoV IconoV1" >
             </div>
-            <div class="col-12 col-sm-10  ">
+            <div class="col-12 col-sm-10  " role="cellphone">
               <p class="textoFrases2 TextoCentrado">
                 +52 (55) 7587 6533
               </p>
-
             </div>
-          </div>
-          <div class="row TF mTsm">
+          </section>
+          <section class="row TF mTsm">
             <div class="col-12 col-sm-2  icono2">
               <img src="Images/MenA.svg" alt="" class="IconoV IconoV1">
             </div>
-            <div class="col-12 col-sm-10   ">
+            <div class="col-12 col-sm-10" role="email">
               <p class="textoFrases2 TextoCentrado">
                 softwaresolutions@lakmisystems.com.mx
               </p>
-
             </div>
-          </div>
-          <div class="row ">
+          </section>
+          <section class="row">
             <div class="col-12  mTsm ">
               <p class="Subsubt TextoCentrado">
-                
                   División de asesoría y consultoría
-                
               </p>
-
             </div>
-          </div>
-          <div class="row TF">
+          </section>
+          <section class="row TF">
             <div class="col-12 col-sm-2  icono2">
               <img src="Images/TelR.svg" alt="" class="IconoV IconoV1">
             </div>
-            <div class="col-12 col-sm-10  ">
+            <div class="col-12 col-sm-10  " role="cellphone">
               <p class="textoFrases2 TextoCentrado">
                 +52 (55) 7587 6533
               </p>
             </div>
-          </div>
-          <div class="row TF mTsm">
+          </section>
+          <section class="row TF mTsm">
             <div class="col-12 col-sm-2  icono2">
               <img src="Images/MenR.svg" alt="" class="IconoV IconoV1">
             </div>
-            <div class="col-12 col-sm-10  ">
+            <div class="col-12 col-sm-10 " role="email">
               <p class="textoFrases2 TextoCentrado">
                 consultingservices@lakmisystems.com.mx
               </p>
             </div>
-          </div>
+          </section>
         </div>
-        <div class="mapa offset-1 col-10  offset-xl-0 col-xl-5 ">
+        <article class="mapa offset-1 col-10  offset-xl-0 col-xl-5 " role="address">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.5919359458976!2d-99.17553594085007!3d19.404459865051663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff69722628b5%3A0x74b7f79e6afe0f67!2sAv.+Benjam%C3%ADn+Franklin+186%2C+Escand%C3%B3n+II+Secc%2C+11800+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1557624721857!5m2!1ses-419!2smx"
             width="100%" height="100%" frameborder="120" style="border:20px" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-
+        </article>
+      </section>
+    </article>
   </section>
-
-
-  <section id="frase2" class="EstBG">
-    <div class="fraseIzq mTmd">
-
+  <!--Fin contacto-->
+  <!--Beneficios-->
+  <section id="frase2" class="EstBG" role="Benefits">
+    <article class="fraseIzq mTmd">
       <p class="TFTam textoFrases">
         “ Todas las entidades se enfrentan al riesgo en la búsqueda de valor, por ello trabajamos bajo la premisa
         de que el valor de nuestros clientes se maximiza cuando la administración establece una estrategia y
@@ -228,12 +227,9 @@
         relacionados, así como cuando realiza un despliegue eficiente y efectivo de recursos en función y con apego a
         los objetivos de su empresa u organización. “
       </p>
-      <a href="BeneficiosA.html"><input type="button" class="botonF2" value="Conoce nuestros beneficios"></a>
-
-    </div>
+      <a href="BeneficiosA.html"><input type="button" class="botonF2" value="Conoce nuestros beneficios" role="button"></a>
+    </article>
   </section>
-
-
+  <!--Fin beneficios-->
 </body>
-
 </html>
