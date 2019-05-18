@@ -27,28 +27,31 @@
   <link rel="stylesheet" href="css/servicios3.css">
   <title>Lakmi Systems</title>
 </head>
-<body>
+<body   onresize="ajuste()" onload="ajuste()">
   <!--navegacion-->
   <nav id="navBar">
     <a href="index.html"> <img class="logoLakmi" src="Lakmi/Logo.svg" alt="" width="120px"></a>
-    <section>
-      <ul class="nav" role="navigation" data-navigation="menu">
-        <li><a href="servicios1.html">Servicios</a>
-          <ul id="sm1">
-            <li id="sm11"><a href="servicios1.html">Oferta de valor</a></li>
-            <li><a href="servicios2.html">Áreas especializadas</a></li>
-            <li><a href="servicios3.html">Entregables</a></li>
-          </ul>
-        </li>
-        <li><a href="BeneficiosA.html">Beneficios</a>
-          <ul id="sm2">
-            <li id="sm21"><a href="BeneficiosA.html">De una Admin. empresarial</a></li>
-            <li><a href="BeneficiosB.html">De un Sist. de control</a></li>
-          </ul>
-        </li>
-        <li><a href="nosotros.html">Nosotros</a>
-        </li>
-        <li><a href="index.html#contacto">Contacto</a></li>
+    <button class="navbar-toggler navbar-light nav-boton" type="button" aria-label="Menú" onclick="mostrarMenu(event)">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <section name="nav-enlaces">
+      <ul class="nav">
+          <li><a href="servicios1.html" onclick="mostrarSub(event,'1')">Servicios</a>
+              <ul id="sm1">
+                  <li id="sm11"><a href="servicios1.html">Oferta de valor</a></li>
+                  <li><a href="servicios2.html">Áreas especializadas</a></li>
+                  <li><a href="servicios3.html">Entregables</a></li>
+              </ul>
+          </li>
+          <li><a href="BeneficiosA.html" onclick="mostrarSub(event,'2')">Beneficios</a>
+              <ul id="sm2">
+                  <li id="sm21"><a href="BeneficiosA.html">De una Admin. empresarial</a></li>
+                  <li><a href="BeneficiosB.html">De un Sist. de control</a></li>
+              </ul>
+          </li>
+          <li><a href="nosotros.html">Nosotros</a>
+          </li>
+          <li><a href="index.html#contacto">Contacto</a></li>
       </ul>
     </section>
   </nav>
@@ -229,6 +232,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="js/scriptNavbar.js"></script>
 </body>
 
 </html>
