@@ -1,30 +1,37 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos" class="next-head" />
+    <meta property="og:description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes." class="next-head" />
+    <meta property="og:type" content="website" class="next-head" />
+    <meta property="og:locale" content="es_PE" class="next-head" />
+    <meta property="og:locale:alternate" content="es_BO" class="next-head" />
+    <meta property="og:site_name" content="Lakmi Systems - Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos" class="next-head" />
+    <meta property="og:image" content="/Lakmi/hero.svg" class="next-head" />
+    <meta name="twitter:image" content="/Lakmi/hero.svg" class="next-head" />
+    <meta property="twitter:card" content="summary_large_image" class="next-head" />
+    <meta property="twitter:title" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos" class="next-head" />
+    <meta property="twitter:site" content="@LakmiSystems" class="next-head" />
+    <meta property="twitter:description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes." class="next-head" />
     <link rel="icon" type="image/png" sizes="16x16" href="Lakmi/Favicon_1.png">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/NavBar.css">
     <link rel="stylesheet" href="css/Textos.css">
     <link rel="stylesheet" href="css/Cards.css">
     <link rel="stylesheet" href="css/servicios1.css">
-
     <title>Lakmi Systems</title>
 </head>
-
 <body>
-    <section id="navBar">
+    <!--navegación-->
+    <nav id="navBar" role="navigation" data-navigation="menu">
         <a href="index.html"> <img class="logoLakmi" src="Lakmi/Logo.svg" alt=""></a>
-        <button class="nav-boton"  onclick="mostrarMenu(event)">Menú</button>
-        <div name="nav-enlaces" class="desaparece">
+        <button class="nav-boton"  onclick="mostrarMenu(event)" role="button">Menú</button>
+        <section name="nav-enlaces" class="desaparece">
             <ul class="nav">
                 <li><a href="servicios1.html" onclick="mostrarSub(event,'1')">Servicios</a>
                     <ul id="sm1">
@@ -43,9 +50,10 @@
                 </li>
                 <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
-        </div>
-    </section>
-
+        </section>
+    </nav>
+    <!--fin de navegación-->
+    <!--Servicios-->
     <section id="hero" class="EstBG">
             <div id="heroshadow">
               <div class="heroTitulo">
@@ -66,80 +74,63 @@
               </div>
             </div>
           </section>
-
-    
-
+    <!--fin de Servicios-->
+    <!--Diagnostico-->
     <section class="container-fluid">
-        <div class="row pMd">
+        <article class="row pMd">
             <div class="offset-0 col-12 offset-sm-1 col-sm-10 mTmd cardS">
                 <h2 class="subtitulo">Diagnóstico</h2>
                 <hr>
-                <p class="textoFrases2">Proporcionamos un diagnóstico completo y preciso del sistema de control interno que se encuentra
-                    operando actualmente en la empresa u organización. Nuestro diagnostico incluye la detección de
-                    componentes y principios del control interno que no están presentes y funcionando en la empresa u
-                    organización, con base en un marco integral de control interno; la identificación de aspectos de
-                    mejora en los componentes de control ya existentes; así como una evaluación genérica y de alto nivel
-                    del diseño e implementación de una selección de actividades de control.</p>
+                <p class="textoFrases2">Proporcionamos un diagnóstico completo y preciso del sistema de control interno que se encuentra operando actualmente en la empresa u organización. Nuestro diagnostico incluye la detección de componentes y principios del control interno que no están presentes y funcionando en la empresa u organización, con base en un marco integral de control interno; la identificación de aspectos de mejora en los componentes de control ya existentes; así como una evaluación genérica y de alto nivel del diseño e implementación de una selección de actividades de control.</p>
             </div>
-        </div>
+        </article>
     </section>
-
+    <!-- fin Diagnostico-->
+    <!--Diseño-->
     <section class="container-fluid">
-        <div class="row mTmd pMd">
+        <article class="row mTmd pMd">
             <div class="offset-0 col-12 offset-sm-1 col-sm-10 col-lg-5  cardS sec2">
                 <h2 class="subtitulo">Diseño del sistema de control interno</h2>
                 <hr>
-                <p class="textoFrases2">Auxiliamos a la administración en sus funciones relacionadas con el diseño del sistema de control
-                    interno cubriendo todos los componentes del Marco Integrado de Control Interno del Committee of
-                    Sponsoring Organizations of the Treadway Commission (“COSO”). El diseño incluye la documentación de
-                    los procesos de negocio y la preparación de arreglos de objetivos, riesgos y controles.</p>
+                <p class="textoFrases2">Auxiliamos a la administración en sus funciones relacionadas con el diseño del sistema de control interno cubriendo todos los componentes del Marco Integrado de Control Interno del Committee of Sponsoring Organizations of the Treadway Commission (“COSO”). El diseño incluye la documentación de los procesos de negocio y la preparación de arreglos de objetivos, riesgos y controles.</p>
             </div>
             <div class="col-12 offset-0 offset-sm-1 offset-lg-0  col-sm-10 col-lg-5 fondo1 EstBG p0 "></div>
-        </div>
+        </article>
     </section>
-
+    <!--fin diseño-->
+    <!--Implementación-->
     <section class="container-fluid">
-        <div class="row pMd">
+        <article class="row pMd">
             <div class="col-12 col-sm-10 offset-sm-1 mTmd cardS">
                 <h2 class="subtitulo">Diseño e implementación inicial de controles asociados a los objetivos de reporte de información
                     financiera.</h2>
                 <hr>
-                <p class="textoFrases2">Auxiliamos a la administración en sus funciones relacionadas con el diseño e implementación de
-                    controles asociados al proceso de preparación de estados financieros de conformidad con normas de
-                    información financiera; declaraciones fiscales; presupuestos u otros reportes empleados en el
-                    proceso de toma de decisiones de la administración.</p>
+                <p class="textoFrases2">Auxiliamos a la administración en sus funciones relacionadas con el diseño e implementación de controles asociados al proceso de preparación de estados financieros de conformidad con normas de información financiera; declaraciones fiscales; presupuestos u otros reportes empleados en el proceso de toma de decisiones de la administración.</p>
             </div>
-        </div>
+        </article>
     </section>
-
+    <!--fin Implementación-->
+    <!--evaluación-->
     <section class="container-fluid">
-        <div class="row mTmd pMd">
+        <article class="row mTmd pMd">
             <div class="offset-0 col-12 offset-sm-1 col-sm-10 col-lg-5 fondo2 EstBG"></div>
             <div class=" offset-0 col-12 col-sm-10 offset-sm-1 offset-lg-0  col-lg-5 cardS p0">
                 <h2 class="subtitulo">Evaluación de aspectos técnicos contables</h2>
                 <hr>
-                <p class="textoFrases2">Auxiliamos a la administración en el proceso de evaluación del tratamiento contable en el
-                    reconocimiento inicial y posterior de transacciones, transformaciones internas y otros eventos que
-                    afectan económicamente a la empresa, de conformidad con el marco de información financiera que le
-                    sea aplicable.</p>
+                <p class="textoFrases2">Auxiliamos a la administración en el proceso de evaluación del tratamiento contable en el reconocimiento inicial y posterior de transacciones, transformaciones internas y otros eventos que afectan económicamente a la empresa, de conformidad con el marco de información financiera que le sea aplicable.</p>
             </div>
-        </div>
+        </article>
     </section>
-
+    <!-- fin evaluación-->
     <section class="container-fluid">
-        <div class="row mTmd pMd">
+        <article class="row mTmd pMd">
             <div class="offset-0 col-12 offset-sm-1 col-sm-10  cardS">
-                <h2 class="subtitulo">La implementación inicial de controles asociados a objetivos de reporte de información financiera
-                </h2>
+                <h2 class="subtitulo">La implementación inicial de controles asociados a objetivos de reporte de información financiera</h2>
                 <hr>
-                <p class="textoFrases2">Ayudamos a la administración y los responsables de las principales funciones y procesos de la empresa
-                    u organización en la implementación de controles asociados a objetivos de reporte de información
-                    financiera interna y externa. Este servicio incluye la elaboración de plantillas de papeles de
-                    trabajo y capacitación a los responsables del sistema de información financiera.</p>
+                <p class="textoFrases2">Ayudamos a la administración y los responsables de las principales funciones y procesos de la empresa u organización en la implementación de controles asociados a objetivos de reporte de información financiera interna y externa. Este servicio incluye la elaboración de plantillas de papeles de trabajo y capacitación a los responsables del sistema de información financiera.</p>
             </div>
-        </div>
+        </article>
     </section>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -152,7 +143,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="js/scriptNavbar.js"></script>
-
 </body>
-
 </html>
