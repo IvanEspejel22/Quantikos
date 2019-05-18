@@ -26,12 +26,14 @@
     <link rel="stylesheet" href="css/servicios1.css">
     <title>Lakmi Systems</title>
 </head>
-<body>
+<body  onresize="ajuste()" onload="ajuste()">
     <!--navegación-->
     <nav id="navBar" role="navigation" data-navigation="menu">
         <a href="index.html"> <img class="logoLakmi" src="Lakmi/Logo.svg" alt=""></a>
-        <button class="nav-boton"  onclick="mostrarMenu(event)" role="button">Menú</button>
-        <section name="nav-enlaces" class="desaparece">
+        <button class="navbar-toggler navbar-light nav-boton" type="button" aria-label="Menú" onclick="mostrarMenu(event)">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <section name="nav-enlaces">
             <ul class="nav">
                 <li><a href="servicios1.html" onclick="mostrarSub(event,'1')">Servicios</a>
                     <ul id="sm1">

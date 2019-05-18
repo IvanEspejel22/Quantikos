@@ -87,13 +87,6 @@
   #sm3 {
     width: 28vw;
   }
-  
- 
-
-  
-  #sm11 a , #sm11 , #sm21 a, #sm21, #sm31 a , #sm31{
-    border-radius: 0  0 0 16px;
-  }
 
   .nav li:hover > ul {
     display:block;
@@ -116,19 +109,26 @@
   }
   
   .nav-boton{
-    margin: 0;
-    width: 70px;
-    height: 76px;
-    color: #001933;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    height: 60px;
+    margin: 7px 0;
+    margin-right: 4vw;
+    background-color: #c3c7ca;
     display: none;
     justify-content: center;
     align-items: center;
   }
 
+  .desaparece {
+    display: none;
+  }
+
 @media (max-width: 670px) {
+  #navBar section{
+    left: 0;
+    position: absolute;
+    top:74px;
+    background: #d6dade;
+  }
   .nav{
     flex-direction: column;
   }
@@ -136,27 +136,39 @@
     display:none;
   }
   .nav li>ul {
-    position:static;
+    position: static;
     display: none;
     flex-flow: column wrap;
   }
-  .nav li>ul li a {
-    width: 92vw;
-  }
-  #sm1,#sm2,#sm3{
-    border-radius: 0;
-  }
-  #sm11 a , #sm11 , #sm21 a, #sm21, #sm31 a , #sm31{
-    border-radius: 0;
-  }
+
   .nav li a{
-    width: 92vw;
+    width: 100vw;
     height: 50px;
+  }
+  #sm1 li{
+    width: 100%;
+  }
+
+  #sm2 li{
+    width: 100%;
+  }
+
+  #sm3 li{
+    width: 100%;
+  }
+
+  #sm1 {
+    width: 100vw;
+  }
+
+  #sm2 {
+    width: 100vw;
+  }
+
+  #sm3 {
+    width: 100vw;
   }
   .nav-boton {
     display: inline-block;
-  }
-  .desaparece {
-    display: none;
   }
 }
